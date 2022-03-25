@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    height: 120px;
+    background-color: darkgray;
+    align-items: center;
+    justify-content: center;
+}
+.header-img{
+    width: 60px;
+    height: 95px;
+    margin-left: 30px;
+    
+}
+
+.header-text{
+    font-size: xx-large;
+}
+.header:hover{
+    color: darkgoldenrod;
+}
