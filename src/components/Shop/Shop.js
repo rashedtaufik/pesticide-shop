@@ -11,7 +11,6 @@ const Shop = () => {
     }, []);
     return (
         <div className='shop-container'>
-            {/* <h2>Choose 4 Pesticide</h2> */}
             <div className="products-container">
                 {
                     products.map(product => <Product

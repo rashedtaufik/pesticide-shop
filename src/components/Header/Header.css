@@ -9,12 +9,13 @@
     width: 60px;
     height: 95px;
     margin-left: 30px;
+    margin-right: 10px;
     
 }
 
 .header-text{
-    font-size: xx-large;
+    font-size: 200%;
 }
-.header:hover{
+.header-text:hover{
     color: darkgoldenrod;
 }

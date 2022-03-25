@@ -9,6 +9,7 @@ const Header = () => {
             <div className='header-img'>
                 <img src={logo} alt="" />
             </div>
+            <h2 className='header-text'>Choose 4 Pesticide</h2>
         </nav>
     );
 };
