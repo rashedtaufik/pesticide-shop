@@ -6,13 +6,13 @@ const Cart = ({ cart }) => {
 
     // const [watch, setWatch] = useState([]);
 
-    const getRandomProduct = () => {
+    const getRandomProducts = () => {
         const getRandom = cart[Math.floor(Math.random() * cart.length)];
         return getRandom;
     };
 
     // const randomSelect = () => {
-    //     const randomProduct = getRandomProduct();
+    //     const randomProduct = getRandomProducts();
     //     if (!randomProduct) {
     //         alert("please add  minimum number 4");
     return (
