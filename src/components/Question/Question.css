@@ -1,0 +1,11 @@
+.question{
+    background-color: darkkhaki;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.question-title{
+    color: green;
+}
