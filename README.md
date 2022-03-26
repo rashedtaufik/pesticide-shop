@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Pesticide Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Link](https://pesticide-shop.netlify.app/).
 
 ## Available Scripts
 
