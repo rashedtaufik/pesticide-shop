@@ -4,7 +4,17 @@ import './Cart.css'
 
 const Cart = ({ cart }) => {
 
+    // const [watch, setWatch] = useState([]);
 
+    const getRandomProduct = () => {
+        const getRandom = cart[Math.floor(Math.random() * cart.length)];
+        return getRandom;
+    };
+
+    // const randomSelect = () => {
+    //     const randomProduct = getRandomProduct();
+    //     if (!randomProduct) {
+    //         alert("please add  minimum number 4");
     return (
         <div className='cart'>
             <h2>Selected Pesticides</h2>
